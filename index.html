@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Wildan Sani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">WildanSani</a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <button id="darkModeToggle" class="btn-dark">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Halo, Saya <span>Wildan Sani</span></h1>
+                <h2 class="hero-subtitle">Pengembang Frontend</h2>
+                <p class="hero-description">Saya membuat website yang indah dan responsif dengan teknologi modern.</p>
+                <div class="hero-buttons">
+                    <a href="#portofolio" class="btn btn-primary">Lihat Karya Saya</a>
+                    <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/fotor.png" alt="Wildan Sani">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Tentang -->
+    <section id="tentang" class="tentang section">
+        <div class="container">
+            <h2 class="section-title">Tentang <span>Saya</span></h2>
+            <div class="tentang-content">
+                <div class="tentang-image">
+                    <img src="assets/images/about-img.jpg" alt="Wildan Sani">
+                </div>
+                <div class="tentang-text">
+                    <h3>Saya seorang pengembang web yang bersemangat</h3>
+                    <p>Mahasiswa Universitas Mayasari Bakti dengan minat kuat dalam pengembangan frontend dan desain antarmuka pengguna.</p>
+                    <div class="tentang-info">
+                        <div class="info-item">
+                            <p>Nama: <span>Wildan Sani</span></p>
+                            <p>Email: <span>saniwildan767@gmail.com</span></p>
+                        </div>
+                        <div class="info-item">
+                            <p>Pendidikan: <span>Universitas Mayasari Bakti</span></p>
+                            <p>Freelance: <span>Tersedia</span></p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Keahlian Saya:</h4>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>UI/UX</span>
+                            <span>Desain Responsif</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Unduh CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Layanan -->
+    <section id="layanan" class="layanan section">
+        <div class="container">
+            <h2 class="section-title">Layanan <span>Saya</span></h2>
+            <div class="layanan-grid">
+                <div class="layanan-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Pengembangan Web</h3>
+                    <p>Pembuatan website custom dengan teknologi terkini dan praktik terbaik.</p>
+                </div>
+                <div class="layanan-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Desain Web</h3>
+                    <p>Desain yang indah dan intuitif untuk meningkatkan pengalaman pengguna.</p>
+                </div>
+                <div class="layanan-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Desain Responsif</h3>
+                    <p>Website yang tampil sempurna di semua perangkat dan ukuran layar.</p>
+                </div>
+                <div class="layanan-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Optimasi SEO</h3>
+                    <p>Website yang dioptimalkan untuk peringkat lebih tinggi di hasil pencarian.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Portofolio -->
+    <section id="portofolio" class="portofolio section">
+        <div class="container">
+            <h2 class="section-title">Portofolio <span>Saya</span></h2>
+            <div class="filter-buttons">
+                <button class="btn-filter active" data-filter="all">Semua</button>
+                <button class="btn-filter" data-filter="web">Web</button>
+                <button class="btn-filter" data-filter="design">Desain</button>
+                <button class="btn-filter" data-filter="app">Aplikasi</button>
+            </div>
+            <div class="portofolio-grid">
+                <div class="portofolio-card" data-category="web">
+                    <img src="assets/images/project1.jpg" alt="Proyek 1">
+                    <div class="portofolio-overlay">
+                        <h3>Website E-commerce</h3>
+                        <p>Pengembangan Web</p>
+                        <a href="#" class="portofolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portofolio-card" data-category="design">
+                    <img src="assets/images/project2.jpg" alt="Proyek 2">
+                    <div class="portofolio-overlay">
+                        <h3>Desain UI/UX</h3>
+                        <p>Desain Web</p>
+                        <a href="#" class="portofolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portofolio-card" data-category="app">
+                    <img src="assets/images/project3.jpg" alt="Proyek 3">
+                    <div class="portofolio-overlay">
+                        <h3>Aplikasi Mobile</h3>
+                        <p>Pengembangan Aplikasi</p>
+                        <a href="#" class="portofolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portofolio-card" data-category="web">
+                    <img src="assets/images/project4.jpg" alt="Proyek 4">
+                    <div class="portofolio-overlay">
+                        <h3>Website Perusahaan</h3>
+                        <p>Pengembangan Web</p>
+                        <a href="#" class="portofolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="kontak" class="kontak section">
+        <div class="container">
+            <h2 class="section-title">Hubungi <span>Saya</span></h2>
+            <div class="kontak-content">
+                <div class="kontak-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: saniwildan767@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>Telepon: +62 812 3456 7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Lokasi: Tasikmalaya, Indonesia</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="kontak-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="tahun"></span> Wildan Sani. Semua Hak Dilindungi.</p>
+            <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
